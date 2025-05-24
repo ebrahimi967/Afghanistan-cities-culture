@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-color: #BE5B50;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:large;
+ 
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:#f6a164;
+  color: rgb(17, 6, 6);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  border-color: #BE5B50;
+  cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+  font-size:large;
+}
+input[type=submit]:hover {
+  background-color: #efefb3;
+   font-family: Arial, Helvetica, sans-serif;
+  font-size:large;
+}
+div {
+  border-radius: 5px;
+ background-color:#edb7b1 ;
+  padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+  font-size:large;
+}
+textarea{resize: none;}
+</style>
+<body>
+
+<h2>Please add your popular foods, productions and traditions not found in this site</h2>
+<h3>Thank you very much!</h3>
+<div>
+  <form action="/action_page.php">
+    <label for="name">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="City name">City name</label>
+    <input type="text" id="ct n" name="city name" placeholder="Your city name..">
+
+    <label for="Cultural details">Cultural details</label>
+    <select id="city" name="city">
+      <option value="Kabul">Kabul Province</option>
+      <option value="Herat">Herat Province</option>
+      <option value="Mazar Sharif">Mazar Sharif Province</option>
+      <option value="Bamiyan">Bamiyan Province</option>
+      <option value="Kandahar">Kandahar Province</option>
+      <option value="Jallal abad">Jallal abad Province</option>
+    </select>
+    <textarea placeholder="Please write your text here..."></textarea>
+    <input type="submit" value="Submit">
+    
+    <p style="background-image: url('img/3607424.jpg');"></p>
+  </form>
+</div>
+
+</body>
+</html>
+
